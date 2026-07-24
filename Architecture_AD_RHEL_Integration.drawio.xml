@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="qjVPVvXyyvmgMjZQecZy">
+    <mxGraphModel dx="1624" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-9" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="86.95" x="560.01" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-30" edge="1" parent="1" source="rAGKbzyIknyiSMKB3wRT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="rAGKbzyIknyiSMKB3wRT-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="220" />
+              <mxPoint x="140" y="220" />
+            </Array>
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-31" edge="1" parent="1" source="rAGKbzyIknyiSMKB3wRT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rAGKbzyIknyiSMKB3wRT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-8" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="" vertex="1">
+          <mxGeometry height="79.2" width="86.09" x="-10" y="200.8" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-35" edge="1" parent="1" source="rAGKbzyIknyiSMKB3wRT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-10" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Hostname: ad-infra-node.lab.local&lt;/div&gt;&lt;div&gt;OS: RHEL 10&amp;nbsp;&lt;/div&gt;&lt;div&gt;Role: AD Client / SSSD&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;IP: 10.0.2.15&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="201.95" x="-52.93000000000001" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Network: VirtualBox NAT Network&amp;nbsp; Subnet: 10.0.2.0/24" vertex="1">
+          <mxGeometry height="50" width="160" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Hostname: WIN-S9FNTUA3GHI&lt;/div&gt;&lt;div&gt;OS: Windows Server 2022&amp;nbsp;&lt;/div&gt;&lt;div&gt;Role: Domain Controller &amp;amp; DNS (lab.local)&lt;/div&gt;&lt;div&gt;IP: 10.0.2.100&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="475.77000000000004" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DNS Query (UDP Port 53)" vertex="1">
+          <mxGeometry height="30" width="150" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-29" edge="1" parent="1" source="rAGKbzyIknyiSMKB3wRT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="556" y="220" />
+            </Array>
+            <mxPoint x="560" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAGKbzyIknyiSMKB3wRT-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Kerberos / LDAP Authentication&lt;/strong&gt;.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="70" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
